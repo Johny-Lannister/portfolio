@@ -116,7 +116,7 @@ const HomePage = () => {
                 <Image width={10} height={10} src="/vercel.svg" alt="Vercel Image" className="w-10 h-10 mr-2" />
               </div>
               <div className="flex space-x-4">
-                <a href="https://github.com/Johny-Lannister/portfolio" className="bg-black text-white px-4 py-2 rounded">View Code</a>
+                <a href="https://github.com/Johny-Lannister/portfolio" target="_blank" className="bg-black text-white px-4 py-2 rounded">View Code</a>
               </div>
             </div>
             {/* Proyecto Anomalias */}
