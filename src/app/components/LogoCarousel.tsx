@@ -6,6 +6,7 @@ const technologies = [
     '/react.svg',    
     '/vscode.svg',
     '/vs.svg',
+    '/sublime-merge.png',
     '/github.svg',
     '/figma.svg',
     '/excel.svg',
