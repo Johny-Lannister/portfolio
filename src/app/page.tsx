@@ -7,6 +7,7 @@ import { useState, useEffect, useRef } from 'react';
 import LogoCarousel from './components/LogoCarousel';
 import Navbar from './components/Navbar';
 import Experience from './components/Experience';
+import Education from './components/Education';
 
 const HomePage = () => {
 
@@ -133,6 +134,7 @@ const HomePage = () => {
             Here are my professional experiences.
           </p>
           <Experience />
+          <Education />
         </div>
       </section>
 
