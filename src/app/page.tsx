@@ -134,6 +134,10 @@ const HomePage = () => {
             Here are my professional experiences.
           </p>
           <Experience />
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Education</h2>
+          <p className="text-lg md:text-xl text-gray-800 mb-12">
+            My education.
+          </p>
           <Education />
         </div>
       </section>
