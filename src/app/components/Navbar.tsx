@@ -44,6 +44,9 @@ const Navbar = () => {
                     <Link href="#experience" className="mx-2 hover:text-gray-300">
                         Experience
                     </Link>
+                    <Link href="#education" className="mx-2 hover:text-gray-300">
+                        Education
+                    </Link>
                     <a href="/Juan-Manuel-Fragale-Carmona.pdf" download className="mx-2 text-blue-500 hover:text-gray-300">
                         Resume
                     </a>

@@ -8,13 +8,13 @@ const Education = () => {
                     <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-emerald-600 bg-emerald-100 rounded-full">DEC, 2024</time>
                     <div className="text-xl font-bold text-slate-900">Escuela de Arte Multimedial Da Vinci</div>
                 </div>
-                <div className="text-slate-500">Official Title: Systems Analyst</div>
-                <div className="text-slate-400">Multiplatform Programming</div>
-                <div className="text-slate-400">Website Development</div>
-                <div className="text-slate-400">Databases</div>
-                <div className="text-slate-400">Analysis, Design and Methodologies</div>
-                <div className="text-slate-400">Project management</div>
-                <div className="text-slate-400">Internet of Things</div>
+                <div className="text-slate-700">Official Title: Systems Analyst</div>
+                <div className="text-slate-600">Multiplatform Programming</div>
+                <div className="text-slate-600">Website Development</div>
+                <div className="text-slate-600">Databases</div>
+                <div className="text-slate-600">Analysis, Design and Methodologies</div>
+                <div className="text-slate-600">Project management</div>
+                <div className="text-slate-600">Internet of Things</div>
             </div>
 
             {/* Item #2 */}

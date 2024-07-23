@@ -52,7 +52,7 @@ const HomePage = () => {
         />
         <h1 className="text-4xl center md:text-6xl lg:text-7xl xl:text-6xl font-bold mb-4 relative z-10 align: center">Juan Manuel Fragale Carmona</h1>
         <p className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center max-w-2xl relative z-10">
-          System Analist
+          Systems Analist
         </p>
         {/* Sección de Contacto */}
         <div className="flex items-center space-x-4 mt-12 relative z-10 bg-gray-200/40 p-2 rounded-lg">
@@ -127,14 +127,14 @@ const HomePage = () => {
       </section>
 
       {/* Sección de Experiencia */}
-      <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='experience'>
+      <section className="w-full py-12 px-4 md:px-8 bg-slate-50" id='experience'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Experience</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
             Here are my professional experiences.
           </p>
           <Experience />
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Education</h2>
+          <h2 className="text-4xl py-12 font-bold ma:px-10 text-gray-800">Education</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
             My education.
           </p>
