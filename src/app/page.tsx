@@ -127,20 +127,25 @@ const HomePage = () => {
       </section>
 
       {/* Sección de Experiencia */}
-      <section className="w-full py-12 px-4 md:px-8 bg-slate-50" id='experience'>
+      <section className="w-full py-8 px-4 md:px-8 bg-slate-50" id='experience'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Experience</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
             Here are my professional experiences.
           </p>
           <Experience />
-          <h2 className="text-4xl py-12 font-bold ma:px-10 text-gray-800">Education</h2>
+        </div>
+      </section>
+      <section className="w-full py-12 px-4 md:px-8 bg-slate-50" id='education'>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl py-8 font-bold ma:px-10 text-gray-800" id='education'>Education</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
             My education.
           </p>
           <Education />
         </div>
       </section>
+     
 
     </main>
   );

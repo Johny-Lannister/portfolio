@@ -2,15 +2,15 @@ import React from 'react';
 
 const technologies = [
     'mysql-original-wordmark.svg',
-    'javascript.svg',
-    '/react.svg',    
+    '/react.svg', 
+    '/tailwind.svg',   
     '/vscode.svg',
     '/vs.svg',
+    '/figma.svg',
     '/sublime-merge.png',
     '/next.svg',
+    'javascript.svg',
     '/github.svg',
-    '/figma.svg',
-    '/excel.svg',
     '/chatgpt.svg',
 ];
 
@@ -24,7 +24,7 @@ const LogoCarousel = () => {
         {/* Contenedor del carrusel */}
         <div className="flex animate-slide-infinite space-x-4">
           {technologies.concat(technologies).map((logo, index) => (
-            <div key={index} className="flex-shrink-0 w-[10%] lg:w-[14.2857%]">
+            <div key={index} className="flex-shrink-0 w-[2%] lg:w-[11%]">
               <img src={logo} alt={`Logo ${index + 1}`} className="h-6 md:h-10 lg:h-15 xl:h-20 w-full object-contain" />
             </div>
           ))}
