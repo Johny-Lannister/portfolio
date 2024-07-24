@@ -17,8 +17,7 @@ const Education = () => {
                 <div className="text-slate-600">Internet of Things</div>
             </div>
 
-            {/* Item #2 */}
-           
+            {/* Item #2 */}  
         </div>
     );
 };

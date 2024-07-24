@@ -20,19 +20,6 @@ const HomePage = () => {
     setTimeout(() => setCopied(false), 2000); // Reset icon after 2 seconds
   };
 
-  const technologies = [
-    "/kubernetes.svg",
-    "/docker.svg",
-    "/grafana.svg",
-    "/prometheus.svg",
-    "python.svg",
-    "JavaScript-logo.png",
-    "google-cloud.svg",
-    "azure.png",
-    "/amazon-aws.svg",
-  ];
-
-
 
   return (
 
@@ -120,8 +107,23 @@ const HomePage = () => {
                 <a href="https://github.com/Johny-Lannister/portfolio" target="_blank" className="bg-black text-white px-4 py-2 rounded">View Code</a>
               </div>
             </div>
-            {/* Proyecto Anomalias */}
-            
+            {/* Dragons */}
+            <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
+              <img src="/dragons.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Song of Ice And Fire Dragons</h3>
+              <p className="text-base md:text-lg mb-4 text-gray-800">
+              The complete list with all the dragons known in the Song of Ice and Fire books and the TV shows, Game of Thrones and House of The Dragon, built with Next.js and Tailwind CSS, executing and consuming my own Dragons Api.
+              </p>
+              <div className="flex items-center mb-4">
+                <Image width={10} height={10} src="/next.svg" alt="Next.js Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/typescript.svg" alt="TypeScript Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/tailwind.svg" alt="Tailwind Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/vercel.svg" alt="Vercel Image" className="w-10 h-10 mr-2" />
+              </div>
+              <div className="flex space-x-4">
+                <a href="https://github.com/Johny-Lannister/dragons-web" target="_blank" className="bg-black text-white px-4 py-2 rounded">View Code</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
