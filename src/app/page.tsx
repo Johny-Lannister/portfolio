@@ -109,7 +109,7 @@ const HomePage = () => {
             </div>
             {/* Dragons */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/dragons.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <img src="/dragons.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Song of Ice And Fire Dragons</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
               The complete list with all the dragons known in the Song of Ice and Fire books and the TV shows, Game of Thrones and House of The Dragon, built with Next.js and Tailwind CSS, executing and consuming my own Dragons Api.
