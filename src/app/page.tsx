@@ -74,21 +74,21 @@ const HomePage = () => {
 
 
       {/* Sección de Proyectos Principales*/}
-      <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
+      {/* <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Main Projects</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> */}
             {/* Wippass */}
             
             
-          </div>
+          {/* </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Sección de Otros Proyectos*/}
       <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Other Projects...</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Portfolio */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
