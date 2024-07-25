@@ -122,6 +122,7 @@ const HomePage = () => {
               </div>
               <div className="flex space-x-4">
                 <a href="https://github.com/Johny-Lannister/dragons-web" target="_blank" className="bg-black text-white px-4 py-2 rounded">View Code</a>
+                <a href="https://dragons-web-six.vercel.app/" target="_blank" className="bg-black text-white px-4 py-2 rounded">Demo</a>
               </div>
             </div>
           </div>
