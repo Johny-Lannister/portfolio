@@ -62,7 +62,7 @@ const HomePage = () => {
       </section>
 
       {/* Sección de Tecnologías */}
-      <section className="w-full -mt-12 py-12 px-4 md:px-8 bg-slate-50" id='tools'>
+      <section className="w-full -mt-24 py-12 px-4 md:px-8 bg-slate-50" id='tools'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">My Tools</h2>
           <p className="text-lg md:text-xl text-gray-800 mb-12">
@@ -84,7 +84,7 @@ const HomePage = () => {
           {/* </div>
         </div>
       </section> */}
-      {/* Sección de Otros Proyectos*/}
+      {/* Projects*/}
       <section className="w-full py-20 px-4 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Main Projects</h2>
@@ -110,7 +110,7 @@ const HomePage = () => {
         </div>
       </section>
       {/* Sección de Otros Proyectos*/}
-      <section className="w-full py-20 px-4 -mt-10 md:px-8 bg-slate-50" id='projects'>
+      <section className="w-full py-20 px-4 -mt-12 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-gray-800">Other Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
