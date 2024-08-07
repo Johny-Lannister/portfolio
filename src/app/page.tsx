@@ -84,11 +84,35 @@ const HomePage = () => {
           {/* </div>
         </div>
       </section> */}
-
       {/* Sección de Otros Proyectos*/}
       <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-gray-800">Projects</h2>
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Main Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Shoes */}
+            <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
+              <img src="/foothouse.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">FootHouse</h3>
+              <p className="text-base md:text-lg mb-4 text-gray-800">
+              A complete ecommerce web, where you can find the latest in sneaker fashion with a wide variety of brands..
+              </p>
+              <div className="flex items-center mb-4"> 
+                <Image width={10} height={10} src="/react.svg" alt="Next.js Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/vite.svg" alt="TypeScript Image" className="w-10 h-10 mr-2" />
+                <Image width={10} height={10} src="/tailwind.svg" alt="Tailwind Image" className="w-10 h-10 mr-2" />
+              </div>
+              <div className="flex space-x-4">
+                <a href="https://foothouse.vercel.app/" target="_blank" className="bg-black text-white px-4 py-2 rounded">Web</a>
+                
+              </div>
+            </div>
+            </div>
+        </div>
+      </section>
+      {/* Sección de Otros Proyectos*/}
+      <section className="w-full py-24 px-4 md:px-8 bg-slate-50" id='projects'>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-12 text-gray-800">Other Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Dragons */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
