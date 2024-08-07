@@ -137,7 +137,7 @@ const HomePage = () => {
             </div>
             {/* Portfolio */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/portfolio.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <img src="/portfolio.jpg" alt="" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Portfolio</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
               My personal portfolio, built with Next.js and Tailwind CSS, showcases my projects, skills, and experience. It is deployed with Vercel and GitHub.
