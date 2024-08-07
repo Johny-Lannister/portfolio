@@ -94,7 +94,7 @@ const HomePage = () => {
               <img src="/foothouse.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">FootHouse</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
-              A complete ecommerce web, where you can find the latest in sneaker fashion with a wide variety of brands..
+              A complete ecommerce web, where you can find the latest in sneaker fashion with a wide variety of brands (This is just a sample page which can be modified or designed according to the client's needs)
               </p>
               <div className="flex items-center mb-4"> 
                 <Image width={10} height={10} src="/react.svg" alt="Next.js Image" className="w-10 h-10 mr-2" />
