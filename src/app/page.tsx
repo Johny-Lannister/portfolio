@@ -39,9 +39,11 @@ const HomePage = () => {
         />
         <h1 className="text-4xl center md:text-6xl lg:text-7xl xl:text-6xl font-bold mb-4 relative z-10 align: center">Juan Manuel Fragale Carmona</h1>
         <p className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center max-w-2xl relative z-10">
-          Systems Analist
+          System Analist
         </p>
         {/* Sección de Contacto */}
+
+
         <div className="flex items-center space-x-4 mt-12 relative z-10 bg-gray-200/40 p-2 rounded-lg">
           <p className="text-lg md:text-xl text-gray-700">{email}</p>
           <a href={`mailto:${email}`} className="text-slate-400 hover:text-slate-500">
@@ -135,7 +137,7 @@ const HomePage = () => {
             </div>
             {/* Portfolio */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/screenshoot.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <img src="/portfolio.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Portfolio</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
               My personal portfolio, built with Next.js and Tailwind CSS, showcases my projects, skills, and experience. It is deployed with Vercel and GitHub.
