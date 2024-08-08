@@ -96,7 +96,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Shoes */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/foothouse.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <Image src="/foothouse.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">FootHouse</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
               A complete ecommerce web, where you can find the latest in sneaker fashion with a wide variety of brands (This is just a sample page which can be modified or designed according to the client's needs)
@@ -121,7 +121,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Dragons */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/dragons.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <Image src="/dragons.png" alt="Dragons Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Song of Ice And Fire Dragons</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
               The complete list with all the dragons known in the Song of Ice and Fire books and the TV shows, Game of Thrones and House of The Dragon, built with Next.js and Tailwind CSS, executing and consuming my own Dragons Api.
@@ -140,7 +140,7 @@ const HomePage = () => {
             </div>
             {/* Portfolio */}
             <div className="bg-slate-100 p-6 rounded-lg shadow-lg">
-              <img src="/portfolio.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
+              <Image src="/portfolio.png" alt="Portfolio Image" className="w-full h-48 md:h-64 object-cover rounded-t-lg" />
               <h3 className="text-2xl md:text-3xl font-semibold my-4 text-gray-900">Portfolio</h3>
               <p className="text-base md:text-lg mb-4 text-gray-800">
               My personal portfolio, built with Next.js and Tailwind CSS, showcases my projects, skills, and experience. It is deployed with Vercel and GitHub.
