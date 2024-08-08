@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import {motion} from 'framer-motion'
 
 const technologies = [
     'mysql-original-wordmark.svg',
@@ -25,7 +27,9 @@ const LogoCarousel = () => {
         <div className="flex animate-slide-infinite space-x-4">
           {technologies.concat(technologies).map((logo, index) => (
             <div key={index} className="flex-shrink-0 w-[2%] lg:w-[11%]">
-              <img src={logo} alt={`Logo ${index + 1}`} className="h-6 md:h-10 lg:h-15 xl:h-20 w-full object-contain" />
+             <motion.div>
+              <Image src="/my-image.png" alt="my-image" width={500} height={500} />
+            </motion.div>
             </div>
           ))}
         </div>

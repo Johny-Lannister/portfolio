@@ -1,13 +1,14 @@
 'use client'
 
 import React from 'react';
-import Image from 'next/image';
 import { FaEnvelope, FaCopy, FaCheck, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { useState, useEffect, useRef } from 'react';
 import LogoCarousel from './components/LogoCarousel';
 import Navbar from './components/Navbar';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import {motion} from 'framer-motion';
+import Image from 'next/image';
 
 const HomePage = () => {
 
@@ -32,11 +33,13 @@ const HomePage = () => {
         {/* Círculo 2 */}
         <div className="absolute top-1/2 left-2/3 w-32 h-32 bg-lime-50 rounded-full mix-blend-multiply blur-2xl transform -translate-y-1/2 animate-move md:w-64 md:h-64 lg:w-96 lg:h-96"></div>
         {/* Contenido */}
-        <img
-          src="/juanma.jpg"
-          alt="Avatar"
-          className="relative z-10 w-24 h-24 rounded-full mb-4 md:w-32 md:h-32"
-        />
+        <motion.div>
+          <Image
+            src="/juanma.jpg"
+            alt="Avatar"
+            className="relative z-10 w-24 h-24 rounded-full mb-4 md:w-32 md:h-32"
+          />
+        </motion.div>
         <h1 className="text-4xl center md:text-6xl lg:text-7xl xl:text-6xl font-bold mb-4 relative z-10 align: center">Juan Manuel Fragale Carmona</h1>
         <p className="text-lg md:text-2xl lg:text-3xl xl:text-4xl text-center max-w-2xl relative z-10">
           System Analist
